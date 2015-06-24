@@ -22,7 +22,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'heroku'
   gem 'capistrano'
   gem 'uglifier', '2.1.1'
   gem 'yui-compressor', '0.9.6'
