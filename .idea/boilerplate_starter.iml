@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name="Local" type="RackRunConfigurationType" factoryName="Rack">
+      <module name="boilerplate_starter" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
+      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="config.ru" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="default" />
+      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="install: boilerplate_starter" type="CapistranoRunConfigurationType" factoryName="Capistrano" temporary="true">
+      <module name="boilerplate_starter" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_TASK_NAME" VALUE="install" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_TASK_ARGS" VALUE="" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_STAGE" VALUE="" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="POpen4 (v0.1.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="Platform (v0.4.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.8, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.10, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.12, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.24, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="excon (v0.45.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.5.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.6, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku (v3.38.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku-api (v0.3.23, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http_router (v0.11.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jsmin (v1.0.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.4.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.25.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.7.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="moneta (v0.7.20, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.10.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="open4 (v1.3.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-admin (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-cache (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-core (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-gen (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-helpers (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-mailer (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-support (v0.12.5@b9c1e1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v0.18.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="puma (v2.11.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.5.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.8.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.3.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.3.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.3.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.3.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.3.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.1.7, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.14, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.6, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra-assetpack (v0.3.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.10, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.15, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.7.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="url_mount (v0.2.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="yui-compressor (v0.9.6, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+  </component>
+</module>
