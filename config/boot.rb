@@ -6,6 +6,9 @@ PADRINO_ROOT = File.expand_path('../..', __FILE__) unless defined?(PADRINO_ROOT)
 require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
 Bundler.require(:core, :assets, RACK_ENV)
+rake db:create
+rake db:migrate
+rake db:seed
 
 ##
 # ## Enable devel logging
