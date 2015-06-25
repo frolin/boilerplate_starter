@@ -14,15 +14,21 @@ group :core do
 end
 
 group :assets do
-  gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
+  gem 'sinatra-assetpack', :require => 'sinatra/assetpack', git: 'https://github.com/frolin/sinatra-assetpack.git'
   gem 'sass'
   gem 'haml'
 
 end
 
+group :development do
+  gem 'capistrano'
+end
+
+
 group :production do
   gem 'pg'
-  gem 'capistrano'
+  gem 'unicorn'
+
   gem 'uglifier', '2.1.1'
   gem 'yui-compressor', '0.9.6'
 end
